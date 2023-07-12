@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contato.css">
+</head>    
+<body cz-shortcut-listen="true"> 
+<header>
+    <img id="logo" src="./imagens/images.jpg">
+        <nav class="navigation">
+            <ul class="nav">
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>fotos</li>
+                </a>
+                <a href="./comentarios.html">
+                    <li>Comentarios</li>
+                </a>
+            </ul>
+        </nav>
+</header>
+<div id="banner"></div>
+<div class="contato">
+    <form class="formulario" action="./index.html">
+        <p>Entre em Contato por Email ou Telefone.</p>
+        <div class="field">
+            <label for="nome"> Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome*" required>
+            </div>
+        <div class="field">
+            <label for="email">Email:</label>
+            <input type="text" id="email" nome="email" placeholder="Seu email*" required>
+            </div>
+        <div class="field radiobox">
+            <span>Gostaria de Receber Novidades no Email?</span>
+            <label for="sim">Sim</label>
+            <input type="radio" name="Novidades" value="sim" checked>
+            <label for="nao">Não</label>
+            <input type="radio" name="Novidades" value="nao" checked>
+            </div>
+        <div class="field">
+            <label for="messagem">Messagem:</label>
+            <textarea type="text" id="messagem" nome="messagem" placeholder="Escreva sua messagem*" required></textarea>
+            </div>
+        <input class="bottun" type="submit" nome="acao" value="Enviar">
+    </form>
+</div>
+<footer >
+    <img style="object-position: content; " id="logo" src="./imagens/images.jpg">
+    <span> Os direitos resevados ©</span>
+    <span>Desenvolvido por: Matheus prado</span>
+    <nav class="footer-navigation">
+        <ul class="footer-list">
+            <a href="./index.html">
+                <li>Home</li>
+            </a>
+            <a href="./contato.html/">
+                <li>Contato</li>
+            </a>
+            <a href="./fotos.html">
+                <li>fotos</li>
+            </a>
+            <a href="./comentarios.html">
+                <li>Comentarios</li>
+            </a>
+        </ul>
+    </nav>
+</footer>    
+</body>
+</html>
